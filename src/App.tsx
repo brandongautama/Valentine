@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+import { Resend } from 'resend';
+import emailjs from '@emailjs/browser';
 
 class PhraseWithLink {
   phrase: string;
@@ -57,12 +59,19 @@ const strikethroughStyle = {
   textDecoration: "line-through",
 };
 
+let attempts = 0;
+
 function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
 
+  emailjs.init({
+    publicKey: "O84hhNY7gGKyhdM9N",
+  });
+
   function handleNoClick() {
+    attempts++;
     setNoCount(noCount + 1);
   }
 
@@ -109,6 +118,18 @@ function App() {
     return getPhraseWithLink().height;
   }
 
+  async function sendEmail() {
+    emailjs.send('service_3zwdw3r', 'template_3w60abe', {number: attempts}).then(
+        (response) => {
+            console.log('SUCCESS!', response.status, response.text);
+        },
+        (error) => {
+            console.log('FAILED...', error);
+        },
+    );
+  }
+
+
   return (
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       {yesPressed ? (
@@ -139,7 +160,11 @@ function App() {
             <button
               className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
               style={{ fontSize: yesButtonSize }}
-              onClick={() => setYesPressed(true)}
+              onClick={() =>{
+                  setYesPressed(true)
+                  sendEmail()
+              }
+            }
             >
               Yes
             </button>
