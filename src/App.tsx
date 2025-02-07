@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import { Resend } from 'resend';
 import emailjs from '@emailjs/browser';
 
 class PhraseWithLink {
