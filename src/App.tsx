@@ -17,39 +17,39 @@ class PhraseWithLink {
 const phrasesWithLinks = [
   new PhraseWithLink(
     "No",
-    "https://media.tenor.com/qO8LJB0jccwAAAAi/snoopy-magic.gif",
+    "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3R4bzBuYmkzcTRnZjA0YXd2NGJ4N3QwN3hqYjYwYTdhaXJ0ZTZucyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5UG0RC6L6oEL7cMZss/giphy.gif",
     270,
-    270,
+    270
   ),
   new PhraseWithLink(
     "Please",
-    "https://media1.tenor.com/m/4_s-yZ_95nkAAAAC/snoopy-please.gif",
-    180,
-    180,
+    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHNkMjJ4NGI0YmN5cTczcGNzMnU3ZTB5aGVwMThlazlsczhoMTFuZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ftMof53RYydASArrps/giphy.gif",
+    320,
+    320
   ),
   new PhraseWithLink(
     "Please??",
-    "https://stickershop.line-scdn.net/stickershop/v1/sticker/377795678/android/sticker.png;compress=true",
-    180,
-    180,
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJlMzY2a2w5NDlhdTMxc2c2Y3ZxaDFyOWtlcmpreDU1ZGk5NDE0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/14oABfwMhnvZfi/giphy.gif",
+    220,
+    220
   ),
   new PhraseWithLink(
     "If you say no, I'll be very sad",
-    "https://media1.tenor.com/m/cf-IrIoYWsUAAAAC/snoopy-cry.gif",
-    150,
-    150,
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWw5YnJrdjdpYm1xaHAzNG1wN3FwOW1pZGJudmkwbGtldTBtazJjdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AKWXpDjlLgYFe1cZou/giphy.gif",
+    220,
+    220
   ),
   new PhraseWithLink(
     "I'm not crying...",
-    "https://stickerly.pstatic.net/sticker_pack/i41LErkjFwwtEvgrNji4A/DT4T3T/31/-1624520412.png",
-    230,
-    230,
+    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG11cTgzM2h4a2NjY2xzYjVmcHMzb3ZnMjhrMHJ6OG9qd2htNG5wciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10tIjpzIu8fe0/giphy.gif",
+    280,
+    280
   ),
   new PhraseWithLink(
     "I'm still not crying...",
-    "https://stickerly.pstatic.net/sticker_pack/i41LErkjFwwtEvgrNji4A/DT4T3T/31/-1624520412.png",
-    230,
-    230,
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamxxa21kM2U5ZXV0dWNrMjI5Nmg3bTExazFndDU5M2R4ZmJnbGxkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PW24kUmUv3vlm/giphy.gif",
+    280,
+    280
   ),
 ];
 
@@ -116,7 +116,7 @@ function App() {
           <img
             alt="bears kissing"
             // src="https://media1.tenor.com/m/q1_FYZWl46sAAAAC/love-snoopy.gif"
-            src="https://media1.tenor.com/m/MEPesrvyAwkAAAAC/snoopy-laughing.gif"
+            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2ZzMjQ0ZXU2MG15dGFxbnhscWsyZ3VieHJkb2NoeW55b292YmxwdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qCT06WLJURMyfsEi2r/giphy.gif"
             // src="https://media1.tenor.com/m/NK95yJitWlUAAAAC/snoopy-heart.gif"
             // src="https://media1.tenor.com/m/61TCZiX7nQYAAAAC/love-you.gif"
             width={300}
@@ -157,3 +157,4 @@ function App() {
 }
 
 export default App;
+
