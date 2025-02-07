@@ -133,7 +133,7 @@ function App() {
             height={getHeight()}
           />
           <h1 className="text-4xl my-4 text-center">
-            Will you be my Valentine?
+            Renee, will you be my Valentine?
           </h1>
           <div className="flex flex-wrap flex-col md:flex-row gap-4 items-center justify-center">
             <button
